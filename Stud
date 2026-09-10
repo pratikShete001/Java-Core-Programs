@@ -1,0 +1,21 @@
+package com.jdbc;
+
+public class Stud {
+	
+	{
+		System.out.println("instant block");
+	}
+	static
+	{
+		System.out.println("Static block");
+	}
+	Stud()
+	{
+		System.out.println("cntr...");
+	}
+
+	public static void main(String[] args) {
+		Stud s = new Stud();
+	}
+
+}
